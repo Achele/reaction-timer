@@ -15,7 +15,6 @@ export default {
         }
     },
     mounted() {
-        console.log('component mounted')
         setTimeout(() => {
             this.showBlock = true
             this.startTimer()
